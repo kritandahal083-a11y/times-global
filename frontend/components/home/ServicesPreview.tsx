@@ -62,7 +62,7 @@ export default function ServicesPreview() {
         />
         <p className="mx-auto mt-5 max-w-xl text-center text-base leading-relaxed text-mist sm:text-lg">
           Want to discuss your requirements? Call us:{" "}
-          <span className="font-semibold text-accent">9851020982</span>
+          <span className="font-semibold text-accent">9802347734</span>
         </p>
 
         {/* Mobile: horizontal scroll carousel */}
