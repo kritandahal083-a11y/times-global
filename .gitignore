@@ -1,0 +1,45 @@
+# ---------------------------------------------------
+# Root .gitignore
+# Prevents image files, logs, build artifacts, and
+# misc junk from accumulating at the project root.
+# The frontend/ directory has its own .gitignore.
+# ---------------------------------------------------
+
+# Image files dropped at the root (belong in frontend/public/images/)
+/*.png
+/*.jpg
+/*.jpeg
+/*.gif
+/*.webp
+/*.svg
+/*.ico
+/*.bmp
+/*.tiff
+
+# Documents dropped at the root
+/*.pdf
+/*.doc
+/*.docx
+
+# Log files
+*.log
+*.err.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Processed / backup asset directories
+processed/
+
+# Root node_modules (frontend/node_modules is covered by frontend/.gitignore)
+/node_modules/
+
+# Build artifacts at root
+dist/
+build/
+
+# Environment files (keep .env.example)
+.env
+.env.*
+!.env.example
